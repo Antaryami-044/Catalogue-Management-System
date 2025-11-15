@@ -9,27 +9,37 @@ const TopicCard = ({ topic }) => (
 );
 
 const TopicSearch = () => {
-
   const [searchTerm, setSearchTerm] = useState('');
+
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
+
   const filteredTopics = useMemo(() => {
+    const lowerCaseSearchTerm = searchTerm.toLowerCase();
+
+    if (!lowerCaseSearchTerm) {
+      return topics;
+    }
+
     return topics.filter(topic =>
-      topic.name.toLowerCase().includes(searchTerm.toLowerCase())
+      topic.name.toLowerCase().includes(lowerCaseSearchTerm) ||
+      topic.category.toLowerCase().includes(lowerCaseSearchTerm)
     );
   }, [searchTerm]);
 
   return (
     <div className="topic-search-container">
       <h1>Topic Browser</h1>
+      
       <input
         type="text"
-        placeholder="Search for a topic..."
+        placeholder="Search by topic or category..."
         className="search-input"
         value={searchTerm}
         onChange={handleSearchChange}
       />
+
       {filteredTopics.length > 0 ? (
         <div className="topic-list">
           {filteredTopics.map(topic => (

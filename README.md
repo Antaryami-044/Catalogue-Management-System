@@ -31,7 +31,7 @@ Here is the process I followed to build the project and how you can run it local
 Clone the repository:
 
 # Replace this URL with your own repository's link
-git clone [\[https://github.com/your-username/totle-topic-search.git\]](https://github.com/Antaryami-044/Catalogue-Management-System)
+git clone [https://github.com/Antaryami-044/Catalogue-Management-System]
 
 
 Navigate into the project directory:
@@ -70,12 +70,12 @@ Performance (useMemo): To improve efficiency, I used the useMemo hook inside Top
 
 Readability (Component Composition): I separated TopicCard into its own small, presentational component. This makes the main TopicSearch.jsx file cleaner and easier to read, as its focus is on state and logic rather than rendering each card's details.
 
+
 Submission Links
 
-As requested in the submission guidelines, here are the links to my GitHub repository and a 2-minute video walkthrough.
 
 My GitHub Repository:
-[PASTE YOUR GITHUB REPOSITORY LINK HERE]
+[https://github.com/Antaryami-044/Catalogue-Management-System]
 
 My 2-Minute Code Walkthrough:
-[PASTE YOUR LOOM/YOUTUBE VIDEO LINK HERE]
+[]
