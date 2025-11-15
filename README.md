@@ -78,4 +78,4 @@ My GitHub Repository:
 [https://github.com/Antaryami-044/Catalogue-Management-System]
 
 My 2-Minute Code Walkthrough:
-[]
+[https://www.loom.com/share/8b5db7f396714c6c90ac99dad886a2a7?t=121]
