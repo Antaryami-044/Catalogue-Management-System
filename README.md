@@ -31,7 +31,7 @@ Here is the process I followed to build the project and how you can run it local
 Clone the repository:
 
 # Replace this URL with your own repository's link
-git clone [https://github.com/your-username/totle-topic-search.git]
+git clone [\[https://github.com/your-username/totle-topic-search.git\]](https://github.com/Antaryami-044/Catalogue-Management-System)
 
 
 Navigate into the project directory:
